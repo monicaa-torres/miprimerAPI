@@ -35,6 +35,7 @@ namespace MiPrimerAPI.Controllers
             Respuesta respuesta = new Respuesta();
             respuesta.c = modelo.a + modelo.b;
             return respuesta;
+
         }
         [HttpPost]
         [Route("Multiplicacion")]
